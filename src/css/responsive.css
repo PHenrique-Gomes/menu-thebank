@@ -1,0 +1,53 @@
+@media(max-width: 750px){
+
+    .container{
+        flex-direction: column;
+    }
+
+    .logo{
+        justify-content: center;
+    }
+
+    .logo h1{
+        font-size: 40px;
+    }
+
+    .menu{
+        flex-direction: column;
+        margin: 50px 0;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .menu li{
+        margin: 30px;
+        justify-content: center;
+
+    }
+
+    .menu li:last-child{
+        margin-top: 60px;
+    }
+
+    .menu li a{
+        margin-left: 0;
+        margin-right: 0;
+        padding: 17px 40px;
+        font-size: 40px;
+    }
+
+    .menu li a.cadastreSe{
+        font-size: 20px;
+        padding: 15px 23px;
+    }
+    
+    
+
+    
+  
+    
+    
+  
+
+  
+}

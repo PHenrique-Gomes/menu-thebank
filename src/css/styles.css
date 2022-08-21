@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;400;800&display=swap');
+
+*{
+    font-family: 'Public Sans', sans-serif;
+}
+
+.titulo{
+    font-weight: 800;
+    font-size: 20px;
+    margin-left: 5px;
+}
+
+
+header{
+    padding: 45px;
+    background-color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+ul{
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.menu li a{
+    margin-left: 30px;
+    transition: 0.3s ease-in-out;
+    font-size: 15px;
+}
+
+.menu li a:hover{
+    background-color: #5BC241;
+    padding: 11px 7px 11px 6px;
+    color: #FFFFFF;
+}
+
+
+a.cadastreSe{
+    background-color: #5BC241;
+    color: #FFFFFF;
+    padding: 10px 20px 10px 20px;
+    border-radius: 10px;
+    font-weight: 300;
+    margin-left: 30px;
+}
+
+.logo{
+    width: 45px;
+    height: 42px;
+}
+
